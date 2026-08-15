@@ -1,0 +1,15 @@
+tag_prefix = "v"
+branch = "main"
+repository = "iri-namespace"
+owner = "legra-ai"
+ignore_merge_commits = true
+from_latest_tag = true
+path = "CHANGELOG.md"
+
+[commit_types]
+feat = { title = "Features" }
+fix = { title = "Bug Fixes" }
+refactor = { title = "Refactoring" }
+docs = { title = "Documentation" }
+test = { title = "Tests" }
+chore = { title = "Maintenance" }
