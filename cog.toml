@@ -4,7 +4,14 @@ repository = "iri-namespace"
 owner = "legra-ai"
 ignore_merge_commits = true
 from_latest_tag = true
+
+[changelog]
 path = "CHANGELOG.md"
+template = "remote"
+remote = "github.com"
+repository = "iri-namespace"
+owner = "legra-ai"
+authors = [{ username = "jgeluk", signature = "Jacobus Geluk" }]
 
 [commit_types]
 feat = { title = "Features" }
