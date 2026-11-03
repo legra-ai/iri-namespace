@@ -8,6 +8,11 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 class MaintenancePolicyTests(unittest.TestCase):
+    def test_breaking_changes_use_minor_release_policy(self):
+        workflow = (ROOT / '.github/workflows/ci.yml').read_text()
+        caller = workflow.split('    with:\n', 1)[1].split('    secrets:', 1)[0]
+        self.assertRegex(caller, r'(?m)^      breaking-change-bump: minor$')
+
     def test_one_pinned_release_pipeline(self):
         workflow = (ROOT / '.github/workflows/ci.yml').read_text()
         self.assertRegex(workflow, r'cargo-maintenance.yml@[0-9a-f]{40}')

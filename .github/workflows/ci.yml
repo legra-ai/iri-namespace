@@ -14,4 +14,5 @@ jobs:
     with:
       crate-name: iri-namespace
       kind: library
+      breaking-change-bump: minor
     secrets: inherit
