@@ -10,7 +10,7 @@ permissions:
   contents: read
 jobs:
   ci:
-    uses: legra-ai/github-actions/.github/workflows/cargo-maintenance.yml@f276ef9f185563e45889722b411a627fc2bc6672
+    uses: legra-ai/github-actions/.github/workflows/cargo-maintenance.yml@ade19d2cab57447f2450b1d5339b3e8143fe4510
     with:
       crate-name: iri-namespace
       kind: library
