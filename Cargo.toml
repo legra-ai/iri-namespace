@@ -19,7 +19,7 @@ doctest = true
 
 [dependencies]
 borrow-or-share = "0.2"
-iri-rfc3987 = "=0.2.0"
+iri-rfc3987 = "=0.2.1"
 serde = { version = "1", features = ["derive"] }
 
 [build-dependencies]
