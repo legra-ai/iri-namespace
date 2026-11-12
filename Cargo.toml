@@ -1,6 +1,6 @@
 [package]
 name = "iri-namespace"
-version = "0.2.5"
+version = "0.2.6"
 description = "Validated namespace, prefix, and CURIE types for RDF and related syntaxes"
 authors = ["Jacobus Geluk <jacobus.geluk@dataroad.com>"]
 edition = "2024"

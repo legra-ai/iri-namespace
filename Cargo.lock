@@ -85,7 +85,7 @@ dependencies = [
 
 [[package]]
 name = "iri-namespace"
-version = "0.2.5"
+version = "0.2.6"
 dependencies = [
  "borrow-or-share",
  "iri-rfc3987",
