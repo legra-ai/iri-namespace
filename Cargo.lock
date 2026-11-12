@@ -96,9 +96,9 @@ dependencies = [
 
 [[package]]
 name = "iri-rfc3987"
-version = "0.2.1"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e467ba2bfc3a338ed993a51d9d1fc6caaf03b9e424846060ee961fbcbe52a0f4"
+checksum = "44ab0f22169b04b5be1eb69a01e955c158d63ccce416650653ab4dae1cfc8907"
 dependencies = [
  "borrow-or-share",
  "ref-cast",
