@@ -96,9 +96,9 @@ dependencies = [
 
 [[package]]
 name = "iri-rfc3987"
-version = "0.3.7"
+version = "0.3.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f6366b05d3e63ae1f688d446a8aac3329ae62152bf2594f757df0ad0d6aeaebc"
+checksum = "75aa9e5b729fa6dd9cdbc1f0c29e64c1f470c8d577293dcb4c2b486f32182dfe"
 dependencies = [
  "borrow-or-share",
  "ref-cast",
@@ -187,9 +187,9 @@ dependencies = [
 
 [[package]]
 name = "rhusky"
-version = "2.0.10"
+version = "2.0.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "af4c824fe55536385ff90cdb2499978b06534a3cb6df0b16c906a95b7e489af5"
+checksum = "c3a23dedae15f64cc7386ff66b29be5141ae5046ae994b87594e8a0032a119d4"
 dependencies = [
  "async-fs-io",
  "tokio",
